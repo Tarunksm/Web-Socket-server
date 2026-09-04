@@ -1,6 +1,6 @@
 import "dotenv/config.js";
 import { WebSocket, WebSocketServer } from "ws";
-import type { ServerEvent, ClientEvent } from "../../shared/message.js";
+import type { ServerEvent, ClientEvent } from "./message.js";
 import prisma from "./lib/prisma.js";
 import { randomUUID } from "node:crypto";
 
